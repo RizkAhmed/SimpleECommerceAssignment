@@ -12,6 +12,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Data", "ECommerce.Data\ECommerce.Data.csproj", "{498CF80E-656A-4566-9893-D107719B4FD4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql", "sql", "{6FF16BC1-0735-4EE5-86CB-1645ED3B7CE4}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\TAG7\OneDrive\سطح المكتب\المستندات\script.sql = C:\Users\TAG7\OneDrive\سطح المكتب\المستندات\script.sql
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{871ECC29-B1BA-4193-9C4B-7FE1C183A7E9}"
 EndProject
