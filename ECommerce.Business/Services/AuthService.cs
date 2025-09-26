@@ -32,8 +32,6 @@ namespace ECommerce.Business.Services
                 throw new UnauthorizedAccessException("Invalid credentials");
 
             user.LastLoginTime = DateTime.UtcNow;
-            _unitOfWork.Users.Update(user);
-            await _unitOfWork.SaveChangesAsync();
 
             return await GenerateTokensAsync(user);
         }
